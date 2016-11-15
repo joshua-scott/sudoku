@@ -1,0 +1,9 @@
+﻿<Window x:Class="sudoku.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:sudoku"
+        Title="Sudoku" Height="600" Width="600" Background="#FF156D76">
+    <Grid Margin="0,0,2,0">
+        <local:SudokuBoard Margin="10"></local:SudokuBoard>
+    </Grid>
+</Window>
